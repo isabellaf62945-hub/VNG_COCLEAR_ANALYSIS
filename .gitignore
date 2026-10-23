@@ -1,0 +1,12 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Patient data and results must never be committed
+*.xlsx
+!data/example_synthetic_data.xlsx
+~$*
+outputs/*
+!outputs/.gitkeep
